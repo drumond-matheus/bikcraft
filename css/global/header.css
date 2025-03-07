@@ -24,10 +24,8 @@
 .header-menu a {
   padding: 16px 0px;
   display: inline-block;
-  font-size: 18px;
   position: relative;
-  font-weight: 400;
-  color: #ffffff;
+  color: var(--cor-0);
 }
 
 .header-menu a:after {
