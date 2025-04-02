@@ -1,17 +1,18 @@
 body {
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 600px;
   color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4,
-ul,
+h5,
 p,
-blockquote {
+ul,
+blockquote,
+dd {
   margin: 0px;
 }
 
@@ -27,7 +28,12 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
 
 img[src$=".jpg"] {
